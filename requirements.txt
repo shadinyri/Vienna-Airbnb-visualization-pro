@@ -1,0 +1,4 @@
+pandas
+numpy
+altair
+vl-convert-python
