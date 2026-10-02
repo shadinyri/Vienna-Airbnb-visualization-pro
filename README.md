@@ -12,6 +12,14 @@ This project utilizes a dataset obtained from Inside Airbnb, an independent open
 *   **Timeframe:** The data was scraped in September 2025.
 *   **Attributes:** The dataset comprises 79 attributes grouped into host profiles, property details, pricing and availability, location, guest reviews (overall rating and six sub-scores), and performance estimates (estimated occupancy and revenue over the last 365 days).
 
+## Dataset & Reproduction
+Due to GitHub's file size limitations, the raw dataset is not hosted in this repository. To run the notebooks locally, please follow these steps:
+
+1. **Download the data:** Visit the public Kaggle dataset page at (https://www.kaggle.com/datasets/ulrikthygepedersen/airbnb-listings).
+2. **Extract the file:** Unzip the downloaded archive.
+3. **Place the data:** Ensure the `listings.csv` file is placed in the exact same root directory as the Jupyter notebooks.
+4. **Execute:** Run the cells in `sub_03_final.ipynb`. The code uses relative paths (`pd.read_csv("listings.csv")`), so no path modifications are required on your local machine.
+
 ## Key Findings & Visual Analysis
 
 ### A.1 - The Price Landscape
